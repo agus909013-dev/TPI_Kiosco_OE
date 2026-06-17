@@ -1,6 +1,5 @@
-# =================================================================
 # PERSISTENCIA DE DATOS & CONTROL DE ESTADOS - KIOSCO "EL PASO"
-# =================================================================
+
 
 # 1. BASE DE DATOS SIMULADA (Inventario y Clientes)
 INVENTARIO = {
@@ -102,9 +101,7 @@ def procesar_pedido_kiosco(mensaje_usuario):
         
         else:
             return "⚠️ *[RESPUESTA INVÁLIDA]*: Por favor, respondé únicamente con **SI** o **NO**:"
-        # =================================================================
         # INTERFAZ DE SIMULACIÓN EN VIVO
-        # =================================================================
 if __name__ == "__main__":
     print("-" * 60)
     print("🏪 SIMULADOR DE PEDIDOS AUTOMATIZADOS - KIOSCO 'EL PASO'")
